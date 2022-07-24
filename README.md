@@ -4,6 +4,7 @@ Trilogy color images
 Automatically convert FITS images into pretty pictures
 
 Examples:
+* https://github.com/dancoe/Trilogy/blob/main/Trilogy%20NIRCam%20color%20images.ipynb
 * https://github.com/dancoe/CEERS/blob/main/NIRCam%20Trilogy%20color%20images.ipynb
 * https://github.com/dancoe/mirage/blob/main/Trilogy%20color%20images%20NIRCam.ipynb
 
