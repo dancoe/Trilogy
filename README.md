@@ -17,3 +17,30 @@ Recent adaptation to Python 3:
 https://github.com/oliveirara/trilogy
 
 Original code: https://www.stsci.edu/~dcoe/trilogy
+
+### Load RGB FITS image into ds9
+
+* Scale -- Min Max
+* Frame -- New Frame RGB
+* File -- Open as -- RGB Image...
+
+### Load RGB FITS image into APT Aladin
+
+* Aladin
+* Cmd-I
+* File
+* Browse
+* RGB fits image
+* (3 planes show up in Aladin)
+* rgb
+  * red = RGB[1]
+  * green = RGB[2]
+  * blue = RGB[3]
+
+### Load RGB FITS image into Python
+
+```
+color_image_hdulist = fits.open(color_image_file)
+color_image_wcs = wcs.WCS(color_image_hdulist[0].header, color_image_hdulist)
+color_image_data = np.stack([hdu.data for hdu in color_image_hdulist[1:]], axis=-1)
+```
