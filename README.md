@@ -3,9 +3,9 @@
 [https://github.com/dancoe/trilogy](https://github.com/dancoe/trilogy)  
 Dan Coe + AI (Gemini, Claude, Cursor) 🚀
 
-🤩 Trilogy creates beautiful color images based on astronomical FITS files. 
-⚡️ This new version [trilogy_pyqt.py](https://github.com/dancoe/Trilogy/blob/main/trilogy_pyqt.py) uses [PyQt](https://doc.qt.io/qtforpython-6) to quickly generate color images that you can pan & zoom through in an interactive GUI. Thanks to Tom Resseguier for showing me PyQt!
-🌈 The image scaling will adjust based on the stamp shown (1000x1000 pixels by default). Avoid bright stars that will saturate the scaling. 
+🤩 Trilogy creates beautiful color images based on astronomical FITS files.  
+⚡️ This new version [trilogy_pyqt.py](https://github.com/dancoe/Trilogy/blob/main/trilogy_pyqt.py) uses [PyQt](https://doc.qt.io/qtforpython-6) to quickly generate color images that you can pan & zoom through in an interactive GUI. Thanks to Tom Resseguier for showing me PyQt!  
+🌈 The image scaling will adjust based on the stamp shown (1000x1000 pixels by default). Avoid bright stars that will saturate the scaling.  
 💾 If you like the way it looks, you can save the image stamp, or even the full image file as PNG or RGB fits.
 
 ## Quick Start
@@ -13,7 +13,7 @@ Dan Coe + AI (Gemini, Claude, Cursor) 🚀
     pip install "numpy>=1.24,<2.3" PyQt5 astropy pillow scipy numba
     python trilogy_pyqt.py
     
-*I found numba clashed with numpy 2.3; an earlier version is required.
+*I found numba clashed with numpy 2.3; an earlier version is required.  
 `PySide2` can be used as a substitute for `PyQt5`*
 
 
